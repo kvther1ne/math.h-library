@@ -20,5 +20,5 @@ Implementing next math.h functions:
 14. long double sqrt(double x)
 15. long double tan(double x)
 
-Makefile used for building the library and tests. The gcov_report target generates a gcov report in the form of an html page.
+Makefile used for building the library and tests (with the targets all, clean, test, s21_math.a, gcov_report). The gcov_report target generates a gcov report in the form of an html page.
 Unit-tests check the result of implementation by comparing them with the implementation of the standard math.h library. Tests cover at least 80% of each function.

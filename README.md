@@ -1,5 +1,5 @@
 # math.h-library
-### Implementation of my own version of the math.h library
+### Implementation of my own version of the math.h library in C
 
 This library implements basic mathematical operations, which are then used in various algorithms. All functions use floating-point numbers in one manner or another. Any functions that operate on angles use radians as the unit of angle.
 

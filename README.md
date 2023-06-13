@@ -1,9 +1,11 @@
 # math.h-library
-### Implementation of my own version of the math.h library in C
+### Реализация библиотеки math.h на языке С
 
-This library implements basic mathematical operations, which are then used in various algorithms. All functions use floating-point numbers in one manner or another. Any functions that operate on angles use radians as the unit of angle.
+В данном проекте наша команда разработала свою версию стандартной библиотеки math.h на языке программирования Си. Эта библиотека реализует базовые математические операции, которые затем используются в различных алгоритмах. 
 
-Implementing next math.h functions:
+Математические операции на языке Си представляют собой группу функций в стандартной библиотеке языка программирования Си, реализующих основные математические функции. Все функции так или иначе используют числа с плавающей запятой. Различные стандарты C предоставляют различные, хотя и обратно совместимые, наборы функций. Любые функции, которые работают с углами, используют радианы в качестве единицы измерения угла.
+
+Обзор некоторых функций math.h:
 1. int abs(int x)
 2. long double acos(double x)
 3. long double asin(double x)
@@ -20,5 +22,4 @@ Implementing next math.h functions:
 14. long double sqrt(double x)
 15. long double tan(double x)
 
-Makefile used for building the library and tests (with the targets all, clean, test, s21_math.a, gcov_report). The gcov_report target generates a gcov report in the form of an html page.
-Unit-tests check the result of implementation by comparing them with the implementation of the standard math.h library. Tests cover at least 80% of each function.
+Сборка программ настроена с помощью Makefile с соответствующими целями: all, clean, test, s21_math.a, gcov_report. Реализовано покрытие интеграционными тестами для всех вариантов флагов и входных значений.
